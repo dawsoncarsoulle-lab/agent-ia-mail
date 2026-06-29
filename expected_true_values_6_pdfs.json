@@ -1,0 +1,377 @@
+{
+  "commande_achat_CA-2026-001_simple": {
+    "entete": {
+      "numero_facture": "CA-2026-001",
+      "numero_fournisseur": "FOU-00219",
+      "date": "03/06/2026",
+      "siren": "498631035",
+      "siret": "49863103500017",
+      "adresse": {
+        "ligne_1": "Bureau & Co Distribution",
+        "ligne_2": null,
+        "rue": "24 avenue Jean Jaures",
+        "code_postal_ville": "69007 Lyon"
+      }
+    },
+    "items": [
+      {
+        "ref_article": "A1002",
+        "qte_facturee": 25,
+        "prix_unitaire": 4.1,
+        "prix_net": 102.5,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Ramette papier A4 80g"
+      },
+      {
+        "ref_article": "STY-BLU",
+        "qte_facturee": 3,
+        "prix_unitaire": 12.9,
+        "prix_net": 38.7,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Stylo bille bleu lot de 50"
+      },
+      {
+        "ref_article": "ENV-C5",
+        "qte_facturee": 2,
+        "prix_unitaire": 18.5,
+        "prix_net": 35.15,
+        "taxe": "20%",
+        "remise": "5%",
+        "description": "Enveloppes C5 kraft lot de 250"
+      }
+    ],
+    "bas_de_page": {
+      "net_total_ttc": 211.62,
+      "net_total_ht": 176.35,
+      "mnt_remise": 1.85
+    }
+  },
+  "commande_achat_CA-2026-014_informatique": {
+    "entete": {
+      "numero_facture": "CA-2026-014",
+      "numero_fournisseur": "SUP-7810",
+      "date": "05/06/2026",
+      "siren": "753920184",
+      "siret": "75392018400022",
+      "adresse": {
+        "ligne_1": "TechniSud Materiel",
+        "ligne_2": null,
+        "rue": "41 rue Paul Langevin",
+        "code_postal_ville": "13013 Marseille"
+      }
+    },
+    "items": [
+      {
+        "ref_article": "USB-C-DOCK",
+        "qte_facturee": 6,
+        "prix_unitaire": 89.9,
+        "prix_net": 496.25,
+        "taxe": "20%",
+        "remise": "8%",
+        "description": "Station accueil USB-C double ecran"
+      },
+      {
+        "ref_article": "SSD-1TO",
+        "qte_facturee": 4,
+        "prix_unitaire": 74.5,
+        "prix_net": 298.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "SSD NVMe 1 To"
+      },
+      {
+        "ref_article": "CAB-HDMI2",
+        "qte_facturee": 12,
+        "prix_unitaire": 6.8,
+        "prix_net": 81.6,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Cable HDMI 2m"
+      },
+      {
+        "ref_article": "SRV-MNT",
+        "qte_facturee": 1,
+        "prix_unitaire": 320.0,
+        "prix_net": 320.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Forfait installation postes"
+      }
+    ],
+    "bas_de_page": {
+      "net_total_ttc": 1435.02,
+      "net_total_ht": 1195.85,
+      "mnt_remise": 43.15
+    }
+  },
+  "commande_achat_CA-2026-027_emballages": {
+    "entete": {
+      "numero_facture": "CA-2026-027",
+      "numero_fournisseur": "F-1042",
+      "date": "09/06/2026",
+      "siren": "442105663",
+      "siret": "44210566300029",
+      "adresse": {
+        "ligne_1": "Emballages Rive Droite",
+        "ligne_2": null,
+        "rue": "12 zone artisanale du Port",
+        "code_postal_ville": "33310 Lormont"
+      }
+    },
+    "items": [
+      {
+        "ref_article": "BOX-30X20",
+        "qte_facturee": 1200,
+        "prix_unitaire": 0.62,
+        "prix_net": 744.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Cartons double cannelure 30x20x20"
+      },
+      {
+        "ref_article": "FILM-500",
+        "qte_facturee": 48,
+        "prix_unitaire": 7.35,
+        "prix_net": 342.22,
+        "taxe": "20%",
+        "remise": "3%",
+        "description": "Film etirable transparent 500mm"
+      },
+      {
+        "ref_article": "PAL-EUR",
+        "qte_facturee": 20,
+        "prix_unitaire": 14.0,
+        "prix_net": 280.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Palette Europe consigne"
+      },
+      {
+        "ref_article": "ETQ-FRAG",
+        "qte_facturee": 5,
+        "prix_unitaire": 9.8,
+        "prix_net": 49.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Etiquettes fragile 1000 unites"
+      },
+      {
+        "ref_article": "ADH-PP",
+        "qte_facturee": 72,
+        "prix_unitaire": 1.95,
+        "prix_net": 140.4,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Adhesif polypropylene havane"
+      }
+    ],
+    "bas_de_page": {
+      "net_total_ttc": 1866.74,
+      "net_total_ht": 1555.62,
+      "mnt_remise": 10.58
+    }
+  },
+  "commande_achat_CA-2026-043_hygiene": {
+    "entete": {
+      "numero_facture": "CA-2026-043",
+      "numero_fournisseur": "VEN-553",
+      "date": "11/06/2026",
+      "siren": "790118402",
+      "siret": "79011840200033",
+      "adresse": {
+        "ligne_1": "Hygiene Pro France",
+        "ligne_2": null,
+        "rue": "88 route de Paris",
+        "code_postal_ville": "80000 Amiens"
+      }
+    },
+    "items": [
+      {
+        "ref_article": "GEL-5L",
+        "qte_facturee": 18,
+        "prix_unitaire": 21.4,
+        "prix_net": 346.68,
+        "taxe": "20%",
+        "remise": "10%",
+        "description": "Gel hydroalcoolique bidon 5L"
+      },
+      {
+        "ref_article": "GANT-NIT-M",
+        "qte_facturee": 40,
+        "prix_unitaire": 6.3,
+        "prix_net": 252.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Gants nitrile taille M boite de 100"
+      },
+      {
+        "ref_article": "MASQ-IIR",
+        "qte_facturee": 25,
+        "prix_unitaire": 3.95,
+        "prix_net": 98.75,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Masques chirurgicaux type IIR boite de 50"
+      },
+      {
+        "ref_article": "DES-SURF",
+        "qte_facturee": 30,
+        "prix_unitaire": 4.8,
+        "prix_net": 136.8,
+        "taxe": "20%",
+        "remise": "5%",
+        "description": "Spray desinfectant surfaces 750ml"
+      }
+    ],
+    "bas_de_page": {
+      "net_total_ttc": 1001.08,
+      "net_total_ht": 834.23,
+      "mnt_remise": 45.72
+    }
+  },
+  "commande_achat_CA-2026-058_velo": {
+    "entete": {
+      "numero_facture": "CA-2026-058",
+      "numero_fournisseur": "VP-EU-016",
+      "date": "12/06/2026",
+      "siren": "667104209",
+      "siret": "66710420900011",
+      "adresse": {
+        "ligne_1": "Veloparts Europe",
+        "ligne_2": null,
+        "rue": "16 rue des Artisans",
+        "code_postal_ville": "38000 Grenoble"
+      }
+    },
+    "items": [
+      {
+        "ref_article": "BRK-DISC-160",
+        "qte_facturee": 80,
+        "prix_unitaire": 8.9,
+        "prix_net": 712.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Disque frein 160 mm"
+      },
+      {
+        "ref_article": "PAD-ORG",
+        "qte_facturee": 120,
+        "prix_unitaire": 5.6,
+        "prix_net": 624.96,
+        "taxe": "20%",
+        "remise": "7%",
+        "description": "Plaquettes frein organiques"
+      },
+      {
+        "ref_article": "CHAIN-11",
+        "qte_facturee": 45,
+        "prix_unitaire": 16.2,
+        "prix_net": 729.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Chaine velo 11 vitesses"
+      },
+      {
+        "ref_article": "TUBE-700",
+        "qte_facturee": 100,
+        "prix_unitaire": 3.4,
+        "prix_net": 340.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Chambre a air 700x35/45"
+      },
+      {
+        "ref_article": "LUBE-WET",
+        "qte_facturee": 60,
+        "prix_unitaire": 4.15,
+        "prix_net": 249.0,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Lubrifiant chaine conditions humides 120ml"
+      },
+      {
+        "ref_article": "TIRE-700",
+        "qte_facturee": 32,
+        "prix_unitaire": 19.9,
+        "prix_net": 604.96,
+        "taxe": "20%",
+        "remise": "5%",
+        "description": "Pneu urbain 700x38 anti-crevaison"
+      }
+    ],
+    "bas_de_page": {
+      "net_total_ttc": 3911.9,
+      "net_total_ht": 3259.92,
+      "mnt_remise": 78.88
+    }
+  },
+  "commande_achat_CA-2026-072_restauration": {
+    "entete": {
+      "numero_facture": "CA-2026-072",
+      "numero_fournisseur": "GRO-340",
+      "date": "15/06/2026",
+      "siren": "350771445",
+      "siret": "35077144500024",
+      "adresse": {
+        "ligne_1": "Epicerie Marine Grossiste",
+        "ligne_2": null,
+        "rue": "6 allee des Marees",
+        "code_postal_ville": "22220 Treguier"
+      }
+    },
+    "items": [
+      {
+        "ref_article": "HUI-OLV-5",
+        "qte_facturee": 10,
+        "prix_unitaire": 38.0,
+        "prix_net": 380.0,
+        "taxe": "5.5%",
+        "remise": "0%",
+        "description": "Huile olive vierge extra 5L"
+      },
+      {
+        "ref_article": "RIZ-ARB-5",
+        "qte_facturee": 8,
+        "prix_unitaire": 12.4,
+        "prix_net": 99.2,
+        "taxe": "5.5%",
+        "remise": "0%",
+        "description": "Riz arborio sac 5kg"
+      },
+      {
+        "ref_article": "TOM-CON-3",
+        "qte_facturee": 24,
+        "prix_unitaire": 5.75,
+        "prix_net": 138.0,
+        "taxe": "5.5%",
+        "remise": "0%",
+        "description": "Tomates concassees boite 3kg"
+      },
+      {
+        "ref_article": "EPICE-SAF",
+        "qte_facturee": 6,
+        "prix_unitaire": 17.9,
+        "prix_net": 107.4,
+        "taxe": "5.5%",
+        "remise": "0%",
+        "description": "Safran moulu 5g"
+      },
+      {
+        "ref_article": "SERV-PAP",
+        "qte_facturee": 4,
+        "prix_unitaire": 29.9,
+        "prix_net": 119.6,
+        "taxe": "20%",
+        "remise": "0%",
+        "description": "Serviettes papier noires lot de 1000"
+      }
+    ],
+    "bas_de_page": {
+      "net_total_ttc": 907.97,
+      "net_total_ht": 844.2,
+      "mnt_remise": 0.0
+    }
+  }
+}

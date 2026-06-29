@@ -1,0 +1,31 @@
+{
+  "entete": {
+    "numero_facture": null,
+    "numero_fournisseur": null,
+    "date" : null,
+    "siren": null,
+    "siret": null,
+    "adresse": {
+      "ligne_1": null,
+      "ligne_2": null,
+      "rue": null,
+      "code_postal_ville": null
+    }
+  },
+  "items": [
+    {
+      "ref_article": null,
+      "qte_facturee": null,
+      "prix_unitaire": null,
+      "prix_net": null,
+      "taxe": null,
+      "remise": null,
+      "description": null
+    }
+  ],
+  "bas_de_page": {
+    "net_total_ttc": null,
+    "net_total_ht": null,
+    "mnt_remise": null
+  }
+}

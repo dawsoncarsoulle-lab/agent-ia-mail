@@ -1,0 +1,23 @@
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime outputs
+pages/
+extracted/
+reports/
+validation/
+all-report.txt
+
+# Local/editor files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+*~

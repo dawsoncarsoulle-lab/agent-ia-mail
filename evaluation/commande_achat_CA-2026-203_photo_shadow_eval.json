@@ -1,0 +1,297 @@
+{
+  "score": 8.04,
+  "status": "FAILED",
+  "passed_points": 25,
+  "total_points": 311,
+  "failed_checks": [
+    {
+      "path": "entete.numero_facture",
+      "expected": "CA-2026-203",
+      "actual": null,
+      "ok": false,
+      "weight": 12
+    },
+    {
+      "path": "entete.numero_fournisseur",
+      "expected": "NHP-55201",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "entete.siren",
+      "expected": "391 204 778",
+      "actual": "891204778",
+      "ok": false,
+      "weight": 5
+    },
+    {
+      "path": "entete.adresse.ligne_1",
+      "expected": "Depot principal",
+      "actual": "NORD HYGIENE PRO",
+      "ok": false,
+      "weight": 5
+    },
+    {
+      "path": "bas_de_page.net_total_ht",
+      "expected": 5652.71,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "bas_de_page.net_total_ttc",
+      "expected": 6783.25,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "bas_de_page.mnt_remise",
+      "expected": 114.97,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[1].ref_article",
+      "expected": "IND-VALV-22",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[1].description",
+      "expected": "Valve inox DN22",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[1].qte_facturee",
+      "expected": 16,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[1].prix_unitaire",
+      "expected": 42.47,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[1].prix_net",
+      "expected": 611.57,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[1].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[1].remise",
+      "expected": 10,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[2].ref_article",
+      "expected": "REST-ASS-24",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[2].description",
+      "expected": "Assiettes compostables lot de 50",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[2].qte_facturee",
+      "expected": 51,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[2].prix_unitaire",
+      "expected": 4.25,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[2].prix_net",
+      "expected": 216.75,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[2].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[2].remise",
+      "expected": 0,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[3].ref_article",
+      "expected": "REM-SPEC",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[3].description",
+      "expected": "Remise commerciale speciale",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[3].qte_facturee",
+      "expected": 1,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[3].prix_unitaire",
+      "expected": -48.01,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[3].prix_net",
+      "expected": -48.01,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[3].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[4].ref_article",
+      "expected": "DOCK-C",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[4].description",
+      "expected": "Station accueil USB-C",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[4].qte_facturee",
+      "expected": 6,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[4].prix_unitaire",
+      "expected": 78.37,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[4].prix_net",
+      "expected": 423.2,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[4].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[4].remise",
+      "expected": 10,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[5].ref_article",
+      "expected": "PCL-14-8",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[5].description",
+      "expected": "PC portable 14 pouces i5 / 16Go",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[5].qte_facturee",
+      "expected": 7,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[5].prix_unitaire",
+      "expected": 635.6,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[5].prix_net",
+      "expected": 4449.2,
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "items[5].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[5].remise",
+      "expected": 0,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    }
+  ],
+  "pdf_name": "commande_achat_CA-2026-203_photo_shadow.pdf",
+  "extracted_file": "extracted/commande_achat_CA-2026-203_photo_shadow.json"
+}

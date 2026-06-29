@@ -1,0 +1,80 @@
+{
+  "score": 70.66,
+  "status": "NEEDS_REVIEW",
+  "passed_points": 118,
+  "total_points": 167,
+  "failed_checks": [
+    {
+      "path": "entete.numero_fournisseur",
+      "expected": "SP-03188",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "entete.siren",
+      "expected": "529 084 613",
+      "actual": null,
+      "ok": false,
+      "weight": 5
+    },
+    {
+      "path": "entete.siret",
+      "expected": "529 084 613 00021",
+      "actual": null,
+      "ok": false,
+      "weight": 7
+    },
+    {
+      "path": "entete.adresse.ligne_1",
+      "expected": "Comptoir pro",
+      "actual": "Comptoir pro Zone artisanale 9 impasse des Metiers 13011 Marseille",
+      "ok": false,
+      "weight": 5
+    },
+    {
+      "path": "entete.adresse.rue",
+      "expected": "9 impasse des Metiers",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "entete.adresse.code_postal_ville",
+      "expected": "13011 Marseille",
+      "actual": "33000 Bordeaux",
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[1].taxe",
+      "expected": "V20",
+      "actual": "10%",
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[1].remise",
+      "expected": 10,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[2].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[2].remise",
+      "expected": 0,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    }
+  ],
+  "pdf_name": "commande_achat_CA-2026-207_cropped_margin.pdf",
+  "extracted_file": "extracted/commande_achat_CA-2026-207_cropped_margin.json"
+}

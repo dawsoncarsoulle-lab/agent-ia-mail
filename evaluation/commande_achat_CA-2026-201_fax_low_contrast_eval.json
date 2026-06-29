@@ -1,0 +1,108 @@
+{
+  "score": 85.01,
+  "status": "NEEDS_REVIEW",
+  "passed_points": 346,
+  "total_points": 407,
+  "failed_checks": [
+    {
+      "path": "entete.numero_fournisseur",
+      "expected": "GRN-6207",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "entete.adresse.ligne_1",
+      "expected": "A l attention du service facturation",
+      "actual": "GREEN RESTAURATION",
+      "ok": false,
+      "weight": 5
+    },
+    {
+      "path": "items[1].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[2].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[2].remise",
+      "expected": 5,
+      "actual": "5%",
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[3].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[4].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[4].remise",
+      "expected": 0,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[5].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[5].remise",
+      "expected": 10,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[6].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[6].remise",
+      "expected": 7,
+      "actual": "7%",
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[7].taxe",
+      "expected": "V20",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[7].remise",
+      "expected": 0,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    }
+  ],
+  "pdf_name": "commande_achat_CA-2026-201_fax_low_contrast.pdf",
+  "extracted_file": "extracted/commande_achat_CA-2026-201_fax_low_contrast.json"
+}

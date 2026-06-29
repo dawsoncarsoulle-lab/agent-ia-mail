@@ -1,0 +1,52 @@
+{
+  "score": 88.97,
+  "status": "NEEDS_REVIEW",
+  "passed_points": 234,
+  "total_points": 263,
+  "failed_checks": [
+    {
+      "path": "entete.numero_fournisseur",
+      "expected": "FRN-80421",
+      "actual": null,
+      "ok": false,
+      "weight": 8
+    },
+    {
+      "path": "entete.adresse.ligne_1",
+      "expected": "ZI du Lac - Batiment C",
+      "actual": "ZI du Lac - Batiment C\n5 Avenue du Lac\n75008 Paris",
+      "ok": false,
+      "weight": 5
+    },
+    {
+      "path": "entete.adresse.rue",
+      "expected": "5 Avenue du Lac",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "entete.adresse.code_postal_ville",
+      "expected": "75008 Paris",
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[1].remise",
+      "expected": 0,
+      "actual": null,
+      "ok": false,
+      "weight": 4
+    },
+    {
+      "path": "items[4].remise",
+      "expected": 10,
+      "actual": "10%",
+      "ok": false,
+      "weight": 4
+    }
+  ],
+  "pdf_name": "commande_achat_CA-2026-202_rotated_scan.pdf",
+  "extracted_file": "extracted/commande_achat_CA-2026-202_rotated_scan.json"
+}
